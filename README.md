@@ -49,7 +49,7 @@ With each push of code the Xamarin Evolve app was built with [Visual Studio Team
 ![](art/testcloud2.png)
 
 ## HockeyApp crash reporting
-Not only was the Evolve 2016 app continuously deployed for testing with [HockeyApp](http://hockyapp.net), but also provided events and crash reporting.
+Not only was the Evolve 2016 app continuously deployed for testing with [HockeyApp](http://hockeyapp.net), but also provided events and crash reporting.
 
 ![](art/hockeyapp.png)
 
@@ -79,9 +79,6 @@ public static void Init (bool mock = false)
 ## Push Notifications
 All of the code for Azure Notification Hubs has been integrated into the Xamarin Evolve application, you will just need to setup your Azure Notifcation Hub Keys and Google Keys. Please read through the [startup guide](https://azure.microsoft.com/en-us/documentation/articles/notification-hubs-overview/) and then fill in your keys in: **XamarinEvolve.Utils/Helpers/Constants.cs**
 
-## SQLite for UWP
-
-Inside of Visual Studio go to Tools -> Extensions and Updates and install SQLite for Universal Windows Platform: https://visualstudiogallery.msdn.microsoft.com/4913e7d5-96c9-4dde-a1a1-69820d615936
 
 ## Google Maps API key (Android)
 There is a “Debug” key that you can use out of the box, or you can configure your own. For Android, you'll need to obtain a Google Maps API key:
@@ -106,3 +103,22 @@ Simply head over to http://hockeyapp.net and register a new iOS/Android/UWP appl
 ## Build your own Backend
 
 This repo contains a full backend that you can deploy to your own Azure App Service Mobile App Backend.
+
+# About
+The Xamarin Evolve mobile apps were handcrafted by Xamarins spread out all over the world.
+
+**Development:**
+* [James Montemagno](http://github.com/jamesmontemagno)
+* [Pierce Boggan](http://github.com/pierceboggan)
+
+**Design:**
+* [Antonio García Aprea](http://github.com/deskfolio)
+
+**Testing:**
+* [Ethan Dennis](https://github.com/erdennis13)
+
+**Many thanks to:**
+* [Fabio Cavalcante](https://github.com/fabiocav)
+* [Matisse Hack](https://github.com/MatisseHack)
+* [Sweetkriti Satpathy](https://github.com/Sweekriti91)
+* [Andrew Branch](https://github.com/andrewbranch)
